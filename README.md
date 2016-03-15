@@ -1,5 +1,5 @@
-Optiver \n
-A Symbolic Expression is a notation for tree structed data
+> Optiver
+> A Symbolic Expression is a notation for tree structed data
 Given a set of parent-child pairs find the lexographically smallest s-expression.
 Ex. Given (A,B) (A,C) (B,G) (C,H) (E,F) (B,D) (C,E)
 Return (A(B(D)(G))(C(E(F))(H))
