@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-class SExpression{
+class SymbolicExpression{
   public static void main(String[] args){
     Scanner scnr = new Scanner(System.in);
     String s = scnr.nextLine();
