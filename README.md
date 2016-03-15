@@ -7,6 +7,6 @@ Return (A(B(D)(G))(C(E(F))(H))
 Check for the following errors:  
 E1 = bad input  
 E2 = duplicate edges  
-E3 = m  
-E4 = not exactly one root  
+E3 = node has >2 children   
+E4 = tree has 0 or >2 roots    
 E5 = cycle  
