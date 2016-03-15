@@ -6,7 +6,7 @@ class SymbolicExpression{
   public static void main(String[] args){
     Scanner scnr = new Scanner(System.in);
     String s = scnr.nextLine();
-    
+    scnr.close();
     validateInput(s);
     
     String print = getExpression(s);
