@@ -110,6 +110,7 @@ class SymbolicExpression{
         if(isCycle(child, nodes, graph, visited)) return true;
       }
     }
+    return false;
   }
   
   //recursive DFS method to construct the S expression
